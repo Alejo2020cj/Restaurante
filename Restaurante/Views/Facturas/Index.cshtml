@@ -1,0 +1,71 @@
+﻿@model IEnumerable<Restaurante.Models.Factura>
+
+@{
+    ViewData["Title"] = "Index";
+}
+
+<h1>Factura</h1>
+
+<p>
+    <a asp-action="Create" type="button" class="btn btn-primary">Crear</a>
+</p>
+<table id="TableFacturas" class="table table-bordered">
+    <thead>
+        <tr>
+            <th>
+                @Html.DisplayNameFor(model => model.FechaFac)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Opservaciones)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.UsuarioId)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.ValTotal)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Mesa)
+            </th>
+            <td>Acciones</td>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var item in Model)
+        {
+            <tr>
+                <td>
+                    @Html.DisplayFor(modelItem => item.FechaFac)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Opservaciones)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.UsuarioId)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.ValTotal)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Mesa.Nombre)
+                </td>
+                <td>
+                    <a asp-action="Edit" asp-route-id="@item.FacturaId" type="button" class="btn btn-warning">
+                        <i class="fa-light fa-pen"></i>Editar
+                    </a>
+                    <a asp-action="Details" asp-route-id="@item.FacturaId" type="button" class="btn btn-success">Información</a>
+                    <a asp-action="Delete" asp-route-id="@item.FacturaId" type="button" class="btn btn-danger">Eliminar</a>
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>
+
+@section scripts{
+        <script>
+
+            $(document).ready(function () {
+                $('#TableFacturas').DataTable();
+            })
+        </script>
+}

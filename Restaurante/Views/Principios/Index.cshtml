@@ -1,0 +1,61 @@
+﻿@model IEnumerable<Restaurante.Models.Principio>
+
+@{
+    ViewData["Title"] = "Index";
+}
+
+<h1>Principios</h1>
+
+<p>
+    <a asp-action="Create" type="button" class="btn btn-primary">Crear</a>
+</p>
+<table id="TablePrincipios" class="table table-bordered">
+    <thead>
+        <tr>
+            <th>
+                @Html.DisplayNameFor(model => model.Nombre)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Porciones)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Precio)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.BHABILITADO)
+            </th>
+            <td>Acciones</td>
+        </tr>
+    </thead>
+    <tbody>
+@foreach (var item in Model) {
+        <tr>
+            <td>
+                @Html.DisplayFor(modelItem => item.Nombre)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Porciones)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Precio)
+            </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.BHABILITADO)
+                </td>
+                <td>
+                    <a asp-action="Edit" asp-route-id="@item.PrinciId" type="button" class="btn btn-warning">Editar</a>
+                    <a asp-action="Details" asp-route-id="@item.PrinciId" type="button" class="btn btn-success">Información</a>
+                    <a asp-action="Delete" asp-route-id="@item.PrinciId" type="button" class="btn btn-danger">Eliminar</a>
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>
+@section scripts{
+        <script>
+
+            $(document).ready(function () {
+                $('#TablePrincipios').DataTable();
+            })
+        </script>
+}

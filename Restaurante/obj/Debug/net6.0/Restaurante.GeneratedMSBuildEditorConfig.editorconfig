@@ -1,0 +1,289 @@
+is_global = true
+build_property.TargetFramework = net6.0
+build_property.TargetPlatformMinVersion = 
+build_property.UsingMicrosoftNETSdkWeb = true
+build_property.ProjectTypeGuids = 
+build_property.InvariantGlobalization = 
+build_property.PlatformNeutralAssembly = 
+build_property.EnforceExtendedAnalyzerRules = 
+build_property._SupportedPlatformList = Linux,macOS,Windows
+build_property.RootNamespace = Restaurante
+build_property.RootNamespace = Restaurante
+build_property.ProjectDir = C:\Users\Manolete\Desktop\AplicacionEnNetCore\Restaurante\Restaurante\
+build_property.RazorLangVersion = 6.0
+build_property.SupportLocalizedComponentNames = 
+build_property.GenerateRazorMetadataSourceChecksumAttributes = 
+build_property.MSBuildProjectDirectory = C:\Users\Manolete\Desktop\AplicacionEnNetCore\Restaurante\Restaurante
+build_property._RazorSourceGeneratorDebug = 
+
+[C:/Users/Manolete/Desktop/AplicacionEnNetCore/Restaurante/Restaurante/Views/Adicionales/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRpY2lvbmFsZXNcQ3JlYXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Manolete/Desktop/AplicacionEnNetCore/Restaurante/Restaurante/Views/Adicionales/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRpY2lvbmFsZXNcRGVsZXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Manolete/Desktop/AplicacionEnNetCore/Restaurante/Restaurante/Views/Adicionales/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRpY2lvbmFsZXNcRGV0YWlscy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Manolete/Desktop/AplicacionEnNetCore/Restaurante/Restaurante/Views/Adicionales/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRpY2lvbmFsZXNcRWRpdC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Manolete/Desktop/AplicacionEnNetCore/Restaurante/Restaurante/Views/Adicionales/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRpY2lvbmFsZXNcSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Manolete/Desktop/AplicacionEnNetCore/Restaurante/Restaurante/Views/Bebidas/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQmViaWRhc1xDcmVhdGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Manolete/Desktop/AplicacionEnNetCore/Restaurante/Restaurante/Views/Bebidas/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQmViaWRhc1xEZWxldGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Manolete/Desktop/AplicacionEnNetCore/Restaurante/Restaurante/Views/Bebidas/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQmViaWRhc1xEZXRhaWxzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Manolete/Desktop/AplicacionEnNetCore/Restaurante/Restaurante/Views/Bebidas/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQmViaWRhc1xFZGl0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Manolete/Desktop/AplicacionEnNetCore/Restaurante/Restaurante/Views/Bebidas/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQmViaWRhc1xJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Manolete/Desktop/AplicacionEnNetCore/Restaurante/Restaurante/Views/Ejecutivoes/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRWplY3V0aXZvZXNcQ3JlYXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Manolete/Desktop/AplicacionEnNetCore/Restaurante/Restaurante/Views/Ejecutivoes/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRWplY3V0aXZvZXNcRGVsZXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Manolete/Desktop/AplicacionEnNetCore/Restaurante/Restaurante/Views/Ejecutivoes/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRWplY3V0aXZvZXNcRGV0YWlscy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Manolete/Desktop/AplicacionEnNetCore/Restaurante/Restaurante/Views/Ejecutivoes/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRWplY3V0aXZvZXNcRWRpdC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Manolete/Desktop/AplicacionEnNetCore/Restaurante/Restaurante/Views/Ejecutivoes/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRWplY3V0aXZvZXNcSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Manolete/Desktop/AplicacionEnNetCore/Restaurante/Restaurante/Views/Ensaladas/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRW5zYWxhZGFzXENyZWF0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Manolete/Desktop/AplicacionEnNetCore/Restaurante/Restaurante/Views/Ensaladas/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRW5zYWxhZGFzXERlbGV0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Manolete/Desktop/AplicacionEnNetCore/Restaurante/Restaurante/Views/Ensaladas/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRW5zYWxhZGFzXERldGFpbHMuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Manolete/Desktop/AplicacionEnNetCore/Restaurante/Restaurante/Views/Ensaladas/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRW5zYWxhZGFzXEVkaXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Manolete/Desktop/AplicacionEnNetCore/Restaurante/Restaurante/Views/Ensaladas/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRW5zYWxhZGFzXEluZGV4LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Manolete/Desktop/AplicacionEnNetCore/Restaurante/Restaurante/Views/Especiales/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRXNwZWNpYWxlc1xDcmVhdGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Manolete/Desktop/AplicacionEnNetCore/Restaurante/Restaurante/Views/Especiales/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRXNwZWNpYWxlc1xEZWxldGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Manolete/Desktop/AplicacionEnNetCore/Restaurante/Restaurante/Views/Especiales/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRXNwZWNpYWxlc1xEZXRhaWxzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Manolete/Desktop/AplicacionEnNetCore/Restaurante/Restaurante/Views/Especiales/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRXNwZWNpYWxlc1xFZGl0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Manolete/Desktop/AplicacionEnNetCore/Restaurante/Restaurante/Views/Especiales/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRXNwZWNpYWxlc1xJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Manolete/Desktop/AplicacionEnNetCore/Restaurante/Restaurante/Views/Facturas/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRmFjdHVyYXNcQ3JlYXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Manolete/Desktop/AplicacionEnNetCore/Restaurante/Restaurante/Views/Facturas/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRmFjdHVyYXNcRGVsZXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Manolete/Desktop/AplicacionEnNetCore/Restaurante/Restaurante/Views/Facturas/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRmFjdHVyYXNcRGV0YWlscy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Manolete/Desktop/AplicacionEnNetCore/Restaurante/Restaurante/Views/Facturas/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRmFjdHVyYXNcRWRpdC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Manolete/Desktop/AplicacionEnNetCore/Restaurante/Restaurante/Views/Facturas/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRmFjdHVyYXNcSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Manolete/Desktop/AplicacionEnNetCore/Restaurante/Restaurante/Views/Home/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Manolete/Desktop/AplicacionEnNetCore/Restaurante/Restaurante/Views/Home/Privacy.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxQcml2YWN5LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Manolete/Desktop/AplicacionEnNetCore/Restaurante/Restaurante/Views/Mesas/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTWVzYXNcQ3JlYXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Manolete/Desktop/AplicacionEnNetCore/Restaurante/Restaurante/Views/Mesas/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTWVzYXNcRGVsZXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Manolete/Desktop/AplicacionEnNetCore/Restaurante/Restaurante/Views/Mesas/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTWVzYXNcRGV0YWlscy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Manolete/Desktop/AplicacionEnNetCore/Restaurante/Restaurante/Views/Mesas/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTWVzYXNcRWRpdC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Manolete/Desktop/AplicacionEnNetCore/Restaurante/Restaurante/Views/Mesas/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTWVzYXNcSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Manolete/Desktop/AplicacionEnNetCore/Restaurante/Restaurante/Views/Pedidoes/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUGVkaWRvZXNcQ3JlYXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Manolete/Desktop/AplicacionEnNetCore/Restaurante/Restaurante/Views/Pedidoes/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUGVkaWRvZXNcRGVsZXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Manolete/Desktop/AplicacionEnNetCore/Restaurante/Restaurante/Views/Pedidoes/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUGVkaWRvZXNcRGV0YWlscy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Manolete/Desktop/AplicacionEnNetCore/Restaurante/Restaurante/Views/Pedidoes/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUGVkaWRvZXNcRWRpdC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Manolete/Desktop/AplicacionEnNetCore/Restaurante/Restaurante/Views/Pedidoes/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUGVkaWRvZXNcSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Manolete/Desktop/AplicacionEnNetCore/Restaurante/Restaurante/Views/Principios/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHJpbmNpcGlvc1xDcmVhdGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Manolete/Desktop/AplicacionEnNetCore/Restaurante/Restaurante/Views/Principios/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHJpbmNpcGlvc1xEZWxldGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Manolete/Desktop/AplicacionEnNetCore/Restaurante/Restaurante/Views/Principios/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHJpbmNpcGlvc1xEZXRhaWxzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Manolete/Desktop/AplicacionEnNetCore/Restaurante/Restaurante/Views/Principios/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHJpbmNpcGlvc1xFZGl0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Manolete/Desktop/AplicacionEnNetCore/Restaurante/Restaurante/Views/Principios/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHJpbmNpcGlvc1xJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Manolete/Desktop/AplicacionEnNetCore/Restaurante/Restaurante/Views/Proteinas/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHJvdGVpbmFzXENyZWF0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Manolete/Desktop/AplicacionEnNetCore/Restaurante/Restaurante/Views/Proteinas/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHJvdGVpbmFzXERlbGV0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Manolete/Desktop/AplicacionEnNetCore/Restaurante/Restaurante/Views/Proteinas/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHJvdGVpbmFzXERldGFpbHMuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Manolete/Desktop/AplicacionEnNetCore/Restaurante/Restaurante/Views/Proteinas/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHJvdGVpbmFzXEVkaXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Manolete/Desktop/AplicacionEnNetCore/Restaurante/Restaurante/Views/Proteinas/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHJvdGVpbmFzXEluZGV4LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Manolete/Desktop/AplicacionEnNetCore/Restaurante/Restaurante/Views/Shared/Error.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEVycm9yLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Manolete/Desktop/AplicacionEnNetCore/Restaurante/Restaurante/Views/Shared/_ValidationScriptsPartial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Manolete/Desktop/AplicacionEnNetCore/Restaurante/Restaurante/Views/Sopas/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU29wYXNcQ3JlYXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Manolete/Desktop/AplicacionEnNetCore/Restaurante/Restaurante/Views/Sopas/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU29wYXNcRGVsZXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Manolete/Desktop/AplicacionEnNetCore/Restaurante/Restaurante/Views/Sopas/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU29wYXNcRGV0YWlscy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Manolete/Desktop/AplicacionEnNetCore/Restaurante/Restaurante/Views/Sopas/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU29wYXNcRWRpdC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Manolete/Desktop/AplicacionEnNetCore/Restaurante/Restaurante/Views/Sopas/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU29wYXNcSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Manolete/Desktop/AplicacionEnNetCore/Restaurante/Restaurante/Views/Usuarios/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVXN1YXJpb3NcQ3JlYXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Manolete/Desktop/AplicacionEnNetCore/Restaurante/Restaurante/Views/Usuarios/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVXN1YXJpb3NcRGVsZXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Manolete/Desktop/AplicacionEnNetCore/Restaurante/Restaurante/Views/Usuarios/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVXN1YXJpb3NcRGV0YWlscy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Manolete/Desktop/AplicacionEnNetCore/Restaurante/Restaurante/Views/Usuarios/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVXN1YXJpb3NcRWRpdC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Manolete/Desktop/AplicacionEnNetCore/Restaurante/Restaurante/Views/Usuarios/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVXN1YXJpb3NcSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Manolete/Desktop/AplicacionEnNetCore/Restaurante/Restaurante/Views/_ViewImports.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Manolete/Desktop/AplicacionEnNetCore/Restaurante/Restaurante/Views/_ViewStart.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Manolete/Desktop/AplicacionEnNetCore/Restaurante/Restaurante/Views/Shared/_Layout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = b-rtbghfn6lq
+
+[C:/Users/Manolete/Desktop/AplicacionEnNetCore/Restaurante/Restaurante/Views/Shared/_Layout2.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXQyLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = b-hdrt3beylr

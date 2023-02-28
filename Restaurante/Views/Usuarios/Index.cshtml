@@ -1,0 +1,69 @@
+﻿@model IEnumerable<Restaurante.Models.Usuario>
+
+@{
+    ViewData["Title"] = "Index";
+}
+
+<h1>Usuarios</h1>
+
+<p>
+    <a asp-action="Create" type="button" class="btn btn-primary">Crear</a>
+</p>
+<table id="TableUsuarios" class="table table-bordered">
+    <thead>
+        <tr>
+            <th>
+                @Html.DisplayNameFor(model => model.Nombre)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Apellido)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Direccion)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Celular)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Ciudad)
+            </th>
+            <td>Acciones</td>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var item in Model)
+        {
+            <tr>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Nombre)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Apellido)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Direccion)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Celular)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Ciudad)
+                </td>
+                <td>
+                    <a asp-action="Edit" asp-route-id="@item.UsuarioId" type="button" class="btn btn-warning">Editar</a>
+                    <a asp-action="Details" asp-route-id="@item.UsuarioId" type="button" class="btn btn-success">Información</a>
+                    <a asp-action="Delete" asp-route-id="@item.UsuarioId" type="button" class="btn btn-danger">Eliminar</a>
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>
+
+@section scripts{
+    <script>
+
+        $(document).ready(function () {
+            $('#TableUsuarios').DataTable();
+        })
+    </script>
+}

@@ -1,0 +1,57 @@
+﻿@model IEnumerable<Restaurante.Models.Mesa>
+
+@{
+    ViewData["Title"] = "Index";
+}
+
+<h1>Mesas disponibles</h1>
+
+<p>
+    <a asp-action="Create" type="button" class="btn btn-primary">Crear</a>
+</p>
+<table id="TableMesas" class="table table-bordered">
+    <thead>
+        <tr>
+            <th>
+                @Html.DisplayNameFor(model => model.MesaId)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Nombre)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.BHABILITADO)
+            </th>        
+                <td>Acciones</td>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var item in Model)
+        {
+            <tr>
+                <td>
+                    @Html.DisplayFor(modelItem => item.MesaId)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Nombre)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.BHABILITADO)
+                </td>
+                <td>
+                    <a asp-action="Edit" asp-route-id="@item.MesaId" type="button" class="btn btn-warning">Editar</a>
+                    <a asp-action="Details" asp-route-id="@item.MesaId" type="button" class="btn btn-success">Información</a>
+                    <a asp-action="Delete" asp-route-id="@item.MesaId" type="button" class="btn btn-danger">Eliminar</a>
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>
+@section scripts{
+        <script>
+
+            $(document).ready(function () {
+                $('#TableMesas').DataTable();
+            })
+        </script>
+}
+

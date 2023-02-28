@@ -1,0 +1,73 @@
+﻿@model IEnumerable<Restaurante.Models.Adicionale>
+
+@{
+    ViewData["Title"] = "Index";
+}
+
+<h1>Adicional</h1>
+<div>
+    <p>
+        <a asp-action="Create" type="button" class="btn btn-primary">
+            <i class="fa-solid fa-plus"></i>Crear
+        </a>
+    </p>
+</div>
+
+<table class="table table-bordered" id="TableAdicion">
+    <thead>
+        <tr>
+            <th>
+                @Html.DisplayNameFor(model => model.Nombre)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Porciones)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Precio)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.BHABILITADO)
+            </th>
+            <td>Acciones</td>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var item in Model)
+        {
+            <tr>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Nombre)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Porciones)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Precio)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.BHABILITADO)
+                </td>
+                <td>
+                    <a asp-action="Edit" asp-route-id="@item.AdicionId" type="button" class="btn btn-warning">
+                        <i class="fa-regular fa-pen-to-square"></i>Editar
+                    </a>
+                    <a asp-action="Details" asp-route-id="@item.AdicionId" type="button" class="btn btn-success">
+                        <i class="fa-solid fa-circle-info"></i>Información
+                    </a>
+                    <a asp-action="Delete" asp-route-id="@item.AdicionId" type="button" class="btn btn-danger">
+                        <i class="fa-solid fa-trash-can-arrow-up"></i>Eliminar
+                    </a>
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>
+
+@section scripts{
+    <script>
+
+        $(document).ready(function () {
+            $('#TableAdicion').DataTable();
+        })
+    </script>
+}
